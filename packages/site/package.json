@@ -1,0 +1,30 @@
+{
+  "name": "@cyberfinity/polymorph-site",
+  "version": "0.1.0",
+  "description": "Website for the Polymorph design system",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberfinity/polymorph.git"
+  },
+  "keywords": [
+    "design-system",
+    "website",
+    "docs",
+    "style-guide"
+  ],
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyberfinity/polymorph/issues"
+  },
+  "homepage": "https://github.com/cyberfinity/polymorph#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

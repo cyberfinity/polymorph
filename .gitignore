@@ -1,3 +1,9 @@
+# Polymorph stuff
+
+# Build output
+dist/
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/node,sass,macos,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,sass,macos,windows,linux
 

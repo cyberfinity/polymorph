@@ -1,0 +1,30 @@
+{
+  "name": "polymorph",
+  "version": "0.1.0",
+  "description": "Design system for Cyberfinity websites and other stuff by James Nash",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "start": "npm run start --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberfinity/polymorph.git"
+  },
+  "keywords": [
+    "design-system",
+    "web",
+    "design-tokens"
+  ],
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyberfinity/polymorph/issues"
+  },
+  "homepage": "https://github.com/cyberfinity/polymorph#readme",
+  "workspaces": [
+    "packages/site"
+  ]
+}
