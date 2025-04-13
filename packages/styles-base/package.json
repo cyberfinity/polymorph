@@ -1,0 +1,24 @@
+{
+  "name": "@cyberfinity/polymorph-styles",
+  "version": "0.0.0",
+  "description": "Polymorph Design System's whitelabel, default CSS styling layer for HTML and components",
+  "keywords": [
+    "cyberfinity",
+    "polymorph",
+    "design-system",
+    "css",
+    "sass",
+    "styling"
+  ],
+  "homepage": "https://github.com/cyberfinity/polymorph#readme",
+  "bugs": {
+    "url": "https://github.com/cyberfinity/polymorph/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberfinity/polymorph.git"
+  },
+  "license": "MIT",
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "type": "module"
+}

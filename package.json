@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Design system for Cyberfinity websites and other stuff by James Nash",
   "private": true,
-  "main": "index.js",
   "scripts": {
     "build": "npm run build --workspaces --if-present",
     "start": "npm run start --workspaces --if-present",
@@ -25,6 +24,7 @@
   },
   "homepage": "https://github.com/cyberfinity/polymorph#readme",
   "workspaces": [
-    "packages/site"
+    "packages/*",
+    "site"
   ]
 }
