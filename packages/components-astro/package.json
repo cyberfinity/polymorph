@@ -1,0 +1,31 @@
+{
+  "name": "@cyberfinity/polymorph-components-astro",
+  "version": "0.0.0",
+  "description": "Polymorph Design System's Astro implementations of UI components",
+  "keywords": [
+    "cyberfinity",
+    "polymorph",
+    "design-system",
+    "html",
+    "astro"
+  ],
+  "homepage": "https://github.com/cyberfinity/polymorph#readme",
+  "bugs": {
+    "url": "https://github.com/cyberfinity/polymorph/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberfinity/polymorph.git"
+  },
+  "license": "MIT",
+  "author": "James Nash (https://cirrus.twiddles.com/)",
+  "type": "module",
+  "exports": {
+    "./components/PageFooter.astro": "./components/PageFooter.astro",
+    "./components/PageHeader.astro": "./components/PageHeader.astro",
+    "./layouts/HTML5.astro": "./layouts/HTML5.astro"
+  },
+  "peerDependencies": {
+    "astro": "^5.6.1"
+  }
+}

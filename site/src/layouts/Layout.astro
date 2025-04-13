@@ -1,0 +1,26 @@
+---
+import { type MarkdownLayoutProps } from "astro";
+import HTML5 from "@cyberfinity/polymorph-components-astro/layouts/HTML5.astro";
+import PageHeader from "@cyberfinity/polymorph-components-astro/components/PageHeader.astro";
+import PageFooter from "@cyberfinity/polymorph-components-astro/components/PageFooter.astro";
+
+type Props = MarkdownLayoutProps<{
+  title: string;
+}>;
+
+const { frontmatter } = Astro.props;
+---
+
+<HTML5 title={frontmatter.title}>
+  <PageHeader>
+    <hgroup>
+      <h1>{frontmatter.title}</h1>
+    </hgroup>
+  </PageHeader>
+  <main>
+    <slot />
+  </main>
+  <PageFooter>
+    &copy; 2023 <a href="https://cirrus.twiddles.com/">James Nash</a>.
+  </PageFooter>
+</HTML5>
