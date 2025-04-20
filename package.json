@@ -1,6 +1,6 @@
 {
-  "name": "polymorph",
-  "version": "0.1.0",
+  "name": "@cyberfinity/polymorph",
+  "version": "0.0.0",
   "description": "Design system for Cyberfinity websites and other stuff by James Nash",
   "private": true,
   "scripts": {
@@ -22,9 +22,12 @@
   "bugs": {
     "url": "https://github.com/cyberfinity/polymorph/issues"
   },
-  "homepage": "https://github.com/cyberfinity/polymorph#readme",
+  "homepage": "https://polymorph.cyberfinity.net/",
   "workspaces": [
     "packages/*",
     "site"
-  ]
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.29.2"
+  }
 }

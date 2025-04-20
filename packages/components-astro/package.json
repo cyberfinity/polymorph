@@ -9,13 +9,18 @@
     "html",
     "astro"
   ],
-  "homepage": "https://github.com/cyberfinity/polymorph#readme",
+  "files": [
+    "components/",
+    "layouts/"
+  ],
+  "homepage": "https://polymorph.cyberfinity.net/",
   "bugs": {
     "url": "https://github.com/cyberfinity/polymorph/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyberfinity/polymorph.git"
+    "url": "git+https://github.com/cyberfinity/polymorph.git",
+    "directory": "packages/components-astro"
   },
   "license": "MIT",
   "author": "James Nash (https://cirrus.twiddles.com/)",
@@ -26,6 +31,6 @@
     "./layouts/HTML5.astro": "./layouts/HTML5.astro"
   },
   "peerDependencies": {
-    "astro": "^5.6.1"
+    "astro": "^5.7.4"
   }
 }
