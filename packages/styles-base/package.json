@@ -1,6 +1,7 @@
 {
   "name": "@cyberfinity/polymorph-styles",
   "version": "0.0.0",
+  "private": true,
   "description": "Polymorph Design System's whitelabel, default CSS styling layer for HTML and components",
   "keywords": [
     "cyberfinity",

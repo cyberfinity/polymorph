@@ -9,6 +9,10 @@
     "html",
     "astro"
   ],
+  "files": [
+    "components/",
+    "layouts/"
+  ],
   "homepage": "https://github.com/cyberfinity/polymorph#readme",
   "bugs": {
     "url": "https://github.com/cyberfinity/polymorph/issues"
