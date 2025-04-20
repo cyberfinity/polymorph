@@ -1,5 +1,5 @@
 {
-  "name": "@cyberfinity/polymorph-components-base",
+  "name": "@cyberfinity/polymorph-components-shared",
   "version": "0.0.0",
   "private": true,
   "description": "Polymorph Design System's shared, platform-agnostic UI components and utils",
@@ -11,13 +11,14 @@
     "custom elements",
     "web components"
   ],
-  "homepage": "https://github.com/cyberfinity/polymorph#readme",
+  "homepage": "https://polymorph.cyberfinity.net/",
   "bugs": {
     "url": "https://github.com/cyberfinity/polymorph/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyberfinity/polymorph.git"
+    "url": "git+https://github.com/cyberfinity/polymorph.git",
+    "directory": "packages/components-shared"
   },
   "license": "MIT",
   "author": "James Nash (https://cirrus.twiddles.com/)",
