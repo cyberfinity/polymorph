@@ -1,14 +1,37 @@
 ---
+import type { HTMLAttributes } from "astro/types";
+
 interface Props {
+  /**
+   * The page's title.
+   *
+   * This will be set as the content of the `<title>` element.
+   */
   title: string;
-  lang?: string;
+
+  /**
+   * Props, to spread on the `<html>` element.
+   *
+   * Note, unless set here, the `<html>` element's `lang` attribute
+   * will be set to `en-GB`, i.e. correct English ;-).
+   */
+  htmlProps?: HTMLAttributes<"html">;
+
+  /**
+   * Props to spread on the `<body>` element.
+   */
+  bodyProps?: HTMLAttributes<"body">;
 }
 
-const { title, lang = "en-GB" } = Astro.props;
+const {
+  title,
+  htmlProps: { lang = "en-GB", ...htmlRestProps } = {},
+  bodyProps,
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} {...htmlRestProps}>
   <head>
     <slot name="html-head">
       <meta charset="UTF-8" />
@@ -16,7 +39,7 @@ const { title, lang = "en-GB" } = Astro.props;
       <title>{title}</title>
     </slot>
   </head>
-  <body>
+  <body {...bodyProps}>
     <slot />
   </body>
 </html>
