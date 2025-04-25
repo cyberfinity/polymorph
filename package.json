@@ -4,9 +4,8 @@
   "description": "Design system for Cyberfinity websites and other stuff by James Nash",
   "private": true,
   "scripts": {
-    "build": "npm run build --workspaces --if-present",
-    "start": "npm run start --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
+    "build": "nx run-many -t build",
+    "test": "nx run-many -t test",
     "release": "changeset publish"
   },
   "repository": {
@@ -29,6 +28,7 @@
     "site"
   ],
   "devDependencies": {
-    "@changesets/cli": "^2.29.4"
+    "@changesets/cli": "^2.29.4",
+    "nx": "20.8.0"
   }
 }
