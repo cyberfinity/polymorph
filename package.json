@@ -29,6 +29,6 @@
     "site"
   ],
   "devDependencies": {
-    "@changesets/cli": "^2.29.2"
+    "@changesets/cli": "^2.29.3"
   }
 }
