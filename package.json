@@ -29,6 +29,6 @@
   ],
   "devDependencies": {
     "@changesets/cli": "^2.29.4",
-    "nx": "20.8.0"
+    "nx": "21.1.3"
   }
 }
