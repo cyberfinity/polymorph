@@ -18,28 +18,50 @@ interface Props {
   htmlProps?: HTMLAttributes<"html">;
 
   /**
+   * Props to spread on the `<head>` element.
+   */
+  headProps?: HTMLAttributes<"head">;
+
+  /**
+   * Props to spread on the `<title>` element.
+   */
+  titleProps?: HTMLAttributes<"title">;
+
+  /**
    * Props to spread on the `<body>` element.
    */
   bodyProps?: HTMLAttributes<"body">;
+
+  /**
+   * Custom `content` value to use for the `<meta name="viewport">` element.
+   *
+   * @default "width=device-width"
+   */
+  viewport?: string;
 }
 
 const {
   title,
   htmlProps: { lang = "en-GB", ...htmlRestProps } = {},
+  headProps,
+  titleProps,
   bodyProps,
+  viewport = "width=device-width",
 } = Astro.props;
 ---
 
 <!doctype html>
 <html lang={lang} {...htmlRestProps}>
-  <head>
-    <slot name="html-head">
+  <heda {...headProps}>
+    <slot name="head">
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width" />
-      <title>{title}</title>
+      <meta name="viewport" content={viewport} />
+      <title {...titleProps}>{title}</title>
+      <slot name="head-content" />
     </slot>
-  </head>
+  </heda>
   <body {...bodyProps}>
     <slot />
   </body>
+
 </html>
