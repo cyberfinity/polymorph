@@ -2,7 +2,7 @@
   "name": "@cyberfinity/polymorph-site",
   "private": true,
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "start": "astro dev",
     "build": "astro build",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@cyberfinity/polymorph-components-astro": "0.1.0",
+    "@cyberfinity/polymorph-components-astro": "0.2.0",
     "astro": "^5.9.2",
     "typescript": "^5.8.3"
   }
