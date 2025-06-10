@@ -52,16 +52,15 @@ const {
 
 <!doctype html>
 <html lang={lang} {...htmlRestProps}>
-  <heda {...headProps}>
+  <head {...headProps}>
     <slot name="head">
       <meta charset="UTF-8" />
       <meta name="viewport" content={viewport} />
       <title {...titleProps}>{title}</title>
       <slot name="head-content" />
     </slot>
-  </heda>
+  </head>
   <body {...bodyProps}>
     <slot />
   </body>
-
 </html>
