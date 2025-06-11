@@ -31,6 +31,6 @@
     "./layouts/HTML5.astro": "./layouts/HTML5.astro"
   },
   "peerDependencies": {
-    "astro": "^5.7.4"
+    "astro": "^5.9.2"
   }
 }
