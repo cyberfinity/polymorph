@@ -1,5 +1,12 @@
 # @cyberfinity/polymorph-site
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [083838b]
+  - @cyberfinity/polymorph-components-astro@0.2.1
+
 ## 0.0.2
 
 ### Patch Changes
