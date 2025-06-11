@@ -1,5 +1,11 @@
 # @cyberfinity/polymorph-components-astro
 
+## 0.2.1
+
+### Patch Changes
+
+- 083838b: Fixed mispelt `<head>` tag.
+
 ## 0.2.0
 
 ### Minor Changes
