@@ -9,10 +9,6 @@
 - ef0970a: Added `viewport` prop to `HTML5.astro`
 - ef0970a: Added `titleProps` and `headProps` to `HTML5.astro` for applying extra attributes to the `<title>` and `<head>` elements, respectively.
 
-### Patch Changes
-
-- 518d1c9: Fixed mispelt `<head>` tag.
-
 ## 0.1.0
 
 ### Minor Changes
