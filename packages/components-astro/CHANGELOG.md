@@ -1,5 +1,11 @@
 # @cyberfinity/polymorph-components-astro
 
+## 0.3.0
+
+### Minor Changes
+
+- 22b99df: Updated peerDependency range so that Astro v6 is also supported
+
 ## 0.2.1
 
 ### Patch Changes
